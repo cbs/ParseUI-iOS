@@ -34,5 +34,5 @@ Pod::Spec.new do |s|
                           'QuartzCore'
 
   s.dependency 'Bolts/Tasks', '~> 1.3'
-  s.dependency 'Parse', '~> 1.9'
+  s.dependency 'Parse', '~> 1.14'
 end
