@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'ParseUI'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.license          =  { :type => 'SDK', :file => 'LICENSE'}
   s.homepage         = 'https://www.parse.com/'
   s.summary          = 'ParseUI is a library of useful User Interface components for the Parse iOS SDK.'
   s.authors          = 'Parse'
   s.social_media_url = 'https://twitter.com/ParseIt'
 
-  s.source           = { :git => "https://github.com/ParsePlatform/ParseUI-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/cbs/ParseUI-iOS/ParseUI-iOS.git", :tag => s.version.to_s }
 
   s.platform              = :ios
   s.requires_arc          = true
